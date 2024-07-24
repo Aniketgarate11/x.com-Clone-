@@ -1,27 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="stylesheet" href="./css/output.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
-<body>
-    <div class="flex container mx-auto"> 
-        <div class="first bg-slate-200 w-full">
-            <div class="log">
-                <svg viewBox="0 0 24 24" aria-hidden="true" class="w-8 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr"><g><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></g></svg>
+
+<body class="bg-black text-white">
+    <div class="flex container w-3/4 mx-auto">
+        <div class="first will-change-contents mt-3 ">
+            <div class="log flex justify-start items-center mb-3 ml-3">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="invert w-6 r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-rxcuwo r-1777fci r-m327ed r-494qqr">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
             </div>
             <div class="sidebar">
-                <span class="material-symbols-outlined">
-                    home
-                    </span>
-
+                <ul class="flex flex-col  gap-y-2 mr-5">
+                    <li class="text-xl\ font-bold  flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined ">
+                            home
+                        </span>
+                        Home
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined ">
+                            search
+                        </span>
+                        Explore
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                        Notification
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined">
+                            chat
+                        </span>
+                        Grok
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined ">
+                            lists
+                        </span>
+                        List
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined ">
+                            bookmark
+                        </span>
+                        Bookmark
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined">
+                            group
+                        </span>
+                        Communities
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined">
+                            star_rate
+                        </span>
+                        Premium
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        Profile
+                    </li>
+                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                        <span class="material-symbols-outlined">
+                            more_horiz
+                        </span>
+                        more
+                    </li>
+                </ul>
             </div>
+            <button class="flex justify-center items-center bg-blue-500 rounded-xl w-4/5 p-1 mt-3">Post</button>
         </div>
-        <div class="second bg-blue-700 w-full">b</div>
-        <div class="third bg-green-200 w-full">c</div>
+        <div class="second  w-full  border-x-2 border-zinc-600">bb</div>
+        <div class="third  w-full">
+            <div class="search">
+                <input type="text" placeholder="Search">
+            </div>
+
+        </div>
     </div>
 </body>
+
 </html>

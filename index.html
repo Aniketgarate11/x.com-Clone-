@@ -11,7 +11,11 @@
 </head>
 
 <body class="bg-black text-white">
+
+    <!-- main body  -->
     <div class="flex container w-3/4 mx-auto">
+
+        <!-- Logo and Sidebar -->
         <div class="first will-change-contents mt-3 ">
             <div class="log flex justify-start items-center mb-3 ml-3">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
@@ -25,61 +29,71 @@
             </div>
             <div class="sidebar">
                 <ul class="flex flex-col  gap-y-2 mr-5">
-                    <li class="text-xl\ font-bold  flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold  flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined ">
                             home
                         </span>
                         Home
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined ">
                             search
                         </span>
                         Explore
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined">
                             notifications
                         </span>
                         Notification
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined">
                             chat
                         </span>
                         Grok
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined ">
                             lists
                         </span>
                         List
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined ">
                             bookmark
                         </span>
                         Bookmark
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined">
                             group
                         </span>
                         Communities
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined">
                             star_rate
                         </span>
                         Premium
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined">
                             person
                         </span>
                         Profile
                     </li>
-                    <li class="text-xl\ font-bold flex justify-start items-center gap-3 hover:bg-zinc-600 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
+                    <li
+                        class=" font-bold flex justify-start items-center gap-3 hover:bg-zinc-800 hover:cursor-pointer hover:rounded-2xl hover: p-2 tracking-tighter">
                         <span class="material-symbols-outlined">
                             more_horiz
                         </span>
@@ -89,10 +103,85 @@
             </div>
             <button class="flex justify-center items-center bg-blue-500 rounded-xl w-4/5 p-1 mt-3">Post</button>
         </div>
-        <div class="second  w-full  border-x-2 border-zinc-600">bb</div>
-        <div class="third  w-full">
-            <div class="search">
-                <input type="text" placeholder="Search">
+         
+        <!-- Feed Section -->
+        <div class="second  w-full  border-x-2 border-zinc-600 ">
+            <div class="top flex  mr-2">
+                <div class="left w-1/2 flex justify-center font-medium items-center p-2  hover:bg-zinc-800 hover:cursor-pointer">For You</div>
+                <div class="right w-1/2 flex justify-center font-medium items-center p-2  hover:bg-zinc-800 hover:cursor-pointer">Following</div>
+                <div class="flex justify-center items-center p-2  hover:cursor-pointer"><span class="material-symbols-outlined">
+                    settings
+                    </span></div>
+            </div>
+            <hr>
+        </div>
+
+        <!-- Search and Explore sec.? -->
+        <div class="third  w-full ">
+
+            <div class="search text-white m-3">
+                <input type="text" class="bg-zinc-800 text-white w-3/5 rounded-2xl p-2 outline-none" placeholder="Search ">
+            </div>
+
+            <div class="whats bg-zinc-800 text-white m-3 w-3/5 rounded-2xl pb-3">
+
+                <h1 class=" text-xl font- font-bold m-3 mb-5 pt-5">Whats Happening</h1>
+
+                <div class="items  px-7 mb-3 hover:bg-gray-500 tracking-tighter">
+                    <div class="font-medium text-sm text-gray-600">Trending in India</div>
+                    <div class="font-bold">#Aniketgarate</div>
+                    <div class="font-medium text-sm text-gray-600">42.3k</div>
+                </div>
+                <div class="items  px-7 mb-3 hover:bg-gray-500 tracking-tighter">
+                    <div class="font-medium text-sm text-gray-600">Trending in India</div>
+                    <div class="font-bold">#WorldChamps</div>
+                    <div class="font-medium text-sm text-gray-600">32.3k</div>
+                </div>
+              
+                
+            </div>
+
+            <div class="who bg-zinc-800 text-white m-3 w-3/5 rounded-2xl pb-3">
+
+                <h1 class=" text-xl font- font-bold m-3 mb-5 pt-5">Who to Follow</h1>
+
+                <div class="items  px-7 mb-3 tracking-tighter">
+                    <div class="person flex justify-between items-center mb-3">
+                        <div class="info">
+                            <div class="font-bold cursor-pointer">Aniket Garate</div>
+                            <div class="font-medium text-sm text-gray-600 cursor-pointer">@aniketgarate11</div>
+                        </div>
+                        <div class="btn cursor-pointer">
+                            <button class="bg-white text-black rounded-xl px-4 py-1">follow</button>
+                        </div>
+                    </div>
+                    <div class="person flex justify-between items-center mb-3">
+                        <div class="info">
+                            <div class="font-bold cursor-pointer">Coding School</div>
+                            <div class="font-medium text-sm text-gray-600 cursor-pointer">@excellenceCoding</div>
+                        </div>
+                        <div class="btn cursor-pointer">
+                            <button class="bg-white text-black rounded-xl px-4 py-1">follow</button>
+                        </div>
+                    </div>
+                    <div class="person flex justify-between items-center mb-3 ">
+                        <div class="info">
+                            <div class="font-bold cursor-pointer">Stack Overflow</div>
+                            <div class="font-medium text-sm text-gray-600 cursor-pointer">@stackoverflowfollow</div>
+                        </div>
+                        <div class="btn cursor-pointer">
+                            <button class="bg-white text-black rounded-xl px-4 py-1">follow</button>
+                        </div>
+                    </div>
+
+                    <div class="text-blue-600 cursor-pointer">
+                        Show more..
+                    </div>
+
+                </div>
+                
+              
+                
             </div>
 
         </div>
